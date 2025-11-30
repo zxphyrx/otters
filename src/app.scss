@@ -1,0 +1,61 @@
+@font-face {
+    font-family: "Merriweather";
+    src: url("/fonts/Merriweather.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Open Sans";
+    src: url("/fonts/OpenSans.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    margin: 0;
+}
+
+.section {
+    height: fit-content;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+.text {
+    position: absolute;
+    top: 100%;
+    transform: translateY(-50%);
+    height: fit-content;
+    width: 50%;
+    padding: 36px;
+    background-color: #086788;
+    box-sizing: border-box;
+    border-radius: 8px;
+
+    h1, h2, h3, h4, h5, h6 {
+    margin-bottom: 16px;
+    color: white;
+    }
+
+    p {
+    color: white;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
