@@ -41,4 +41,4 @@
 <a href = "https://zoo.hackclub.com"><div id="zoo_linkBanner">
     <h1>CHECK OUT MORE AT THE ZOO <span class="material-symbols-outlined bannerIcon">pets</span> </h1>
 </div></a>
-<div style="height: 100px"></div>
+<div style="height: 85px"></div>

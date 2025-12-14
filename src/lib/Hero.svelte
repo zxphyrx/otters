@@ -1,24 +1,30 @@
 <style lang="scss">
     .section > img {
         position: relative;
-        z-index: -1;
+        z-index: 0;
         height: auto;
-        width: 100%;
-        overflow: hidden;
+        width: 90%;
+        padding: 5%;
+        background-color: #587792;
     }
 
     h1 {
-        font-family: "Merriweather";
+        margin-bottom: 8px;
         font-size: 2.25rem;
-        margin: 0 0 16px 0;
+        color: #1b120d;
     }
 
     p {
-        font-family: "Open Sans";
-        font-size: 1rem;
-        margin: 0;
+        color: #1b120d;
     }
 
+    .text {
+        width: 100%;
+        padding: 40px 40px 80px 40px;
+        background-color: #d8b59e;
+        box-sizing: border-box;
+        z-index: 1;
+    }
 </style>
 
 <div class="section">
